@@ -3,8 +3,7 @@ PHP Server Monitor API for IOS (iPhone &amp; iPad) and Android
 
 
 
-**Login API:**
-
+##Login API:
 /api/userapi.php?tag=login&email=email@yourdomain.com&app_password=USER_PASS&phone_type=iPhoneORAndroid&devicetoken=xxxxxxxxxx
 
 **Fields Require:**
@@ -28,8 +27,7 @@ devicetoken = Get the Device Token for push notification service.
 ```
 
 
-**Get All Servers List:**
-
+##Get All Servers List:
 /api/monitorapi.php?tag=serverlist&email=email@domain.com&app_password=USER_PASS&user_id=1
 
 **Fields Require:**
@@ -67,8 +65,7 @@ user_id = PHP Server Monitor user's ID
 
 
 
-**Get Monitor's Uptime:**
-
+##Get Monitor's Uptime:
 /api/monitorapi.php?tag=serveruptime&email=email@domain.com&app_password=USER_PASS&server_id=6&HoursUnit=25
 
 **Fields Require:**
@@ -105,8 +102,7 @@ HoursUnit = Number or hours
 }
 ```
 
-**Get Monitor's Log**
-
+##Get Monitor's Log
 /api/monitorapi.php?tag=serverlogs&email=email@domain.com&app_password=USER_PASS&server_id=79&days=7
 
 **Fields Require:**
@@ -136,8 +132,7 @@ days = Number of days log.
 }
 ```
 
-**Add/Update Monitor:**
-
+##Add/Update Monitor:
 /api/monitorapi.php?tag=addupdateserver&user_id=3&email=email@domain.com&app_password=USER_PASS&ip=x.x.x.x&port=80&label=Serveralarms.com&type=service&status=off&active=yes&emailalert=yes&warning_threshold=60&timeout=60&server_id=
 
 **Fields Require:**
@@ -163,8 +158,7 @@ server_id = If you are adding new server server_id filed send blank.
 }
 ```
 
-**Delete Monitor:**
-
+##Delete Monitor:
 /api/monitorapi.php?tag=deleteserver&email=email@domain.com&app_password=USER_PASS&server_id=
 
 **Fields Require:**
