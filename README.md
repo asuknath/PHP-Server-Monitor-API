@@ -166,7 +166,7 @@ server_id = If you are adding new server server_id filed send blank.
 
 **Delete Monitor:**
 
-https://serveralarms.com/monitor/api/monitorapi.php?tag=deleteserver&email=email@domain.com&app_password=USER_PASS&server_id=
+/api/monitorapi.php?tag=deleteserver&email=email@domain.com&app_password=USER_PASS&server_id=
 
 **Fields Require:**
 Tag = addupdateserver
