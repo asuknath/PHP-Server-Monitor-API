@@ -48,7 +48,7 @@ user_id = PHP Server Monitor user's ID
 	server_id: "1",
 	ip: "https://hostfav.com",
 	port: "80",
-	label: "Source Forge",
+	label: "Hostfav Hosting",
 	type: "website",
 	status: "on",
 	last_online: "2016-03-21 13:10:02",
