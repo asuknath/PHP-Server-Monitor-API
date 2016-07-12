@@ -87,7 +87,7 @@ HoursUnit = Number or hours
   success: 1,
   average_latency: 0.0018558051161538,
   uptime: 100,
-server: [
+  server: [
 	{
 	servers_uptime_id: "1973944",
 	server_id: "79",
