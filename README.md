@@ -14,7 +14,6 @@ app_password = PHP Server Monitor user's password
 phone_type = If you are using IOS devices use iPhone and for Android use Android
 devicetoken = Get the Device Token for push notification service.
 
-**Response:   **
 ```json
 {
   tag: "login",
